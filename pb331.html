@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .t1{
+            background-color: blue;
+            width: 50%;
+        }
+        .t2{
+            width: 50%;
+            background-color: green;
+        }
+        .container{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        @media only screen and (max-width: 1000px){
+            .t1{background-color: green;}
+            .t2{background-color: blue;}
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <table class="t1" border="2" cellpadding="25">
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    <table class="t2" border="2" cellpadding="25">
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    </div>
+</body>
+</html>
